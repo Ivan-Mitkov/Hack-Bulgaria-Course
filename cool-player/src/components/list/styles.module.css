@@ -1,0 +1,21 @@
+#list{
+    /* background-color: rgba(150, 159, 170, 0.2); */
+   
+    display: flex;
+    flex-flow: column;
+    align-items:flex-end;
+    justify-content: center;
+    height: 90%;
+    grid-area: 2/2/3/3;
+    border-top: 5px solid rgb(165, 173, 181);
+    
+}
+
+#list ul{
+   
+    
+}
+
+.order{
+
+}

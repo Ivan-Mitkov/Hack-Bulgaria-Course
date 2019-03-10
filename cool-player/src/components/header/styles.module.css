@@ -1,0 +1,18 @@
+#header{
+
+    grid-column: span 4;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+
+  
+}
+#appName{
+    color: #47525E;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 400px;
+    margin-left: 25%;
+}

@@ -1,0 +1,9 @@
+const data={
+    "headers": ["id", "name"],
+    "data": [
+        {
+          "name": "Radoslav Georgiev",
+          "id": 1
+        }
+    ]
+  }

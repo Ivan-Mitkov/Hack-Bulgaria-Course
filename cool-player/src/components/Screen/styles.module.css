@@ -1,0 +1,56 @@
+#screen {
+    grid-area: 2/3/3/5;
+    border-top: 5px solid rgb(165, 173, 181);
+    width: 80%;
+}
+
+.nestedGrid {
+    display: grid;
+    height: 80%;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 60% 20%;
+    border: 1px solid rgba(42, 74, 29, 0.21);
+    border-radius: 4px;
+    background-color: rgba(119, 211, 83, 0.19);
+}
+
+.ecran {
+    background-color: #13CE66;
+    border-radius: 4px;
+    opacity: 0.89;
+    width: 80%;
+    height: 100%;
+}
+
+.btnPrimary1 {
+    background-color: #47525E;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+   text-align: center;
+   justify-self: flex-start;
+   align-self: center;
+    
+}
+.btnPrimary2 {
+    background-color: #47525E;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+   text-align: center;
+   justify-self: flex-end;
+   align-self: center;
+    
+}
+
+.btnText{
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;   
+    text-align: center;
+    
+}

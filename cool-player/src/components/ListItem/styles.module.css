@@ -1,0 +1,22 @@
+.listItem{
+    color: #5A6978;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  width: 250px;
+  text-align: left;
+  list-style: none;
+ margin: 10px;
+  
+}
+
+.listItem:active,
+.listItem:hover{
+    background-color: #13CE66;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 20px;
+   
+}
